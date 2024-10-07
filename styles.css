@@ -1,0 +1,21 @@
+#introPage{
+    /* display: flex; */
+    padding-top: 40vh;
+    background-color: red;
+    height: 100vh;
+}
+
+#introPage * {
+    background-color: red;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+}
+
+#introPage > .intro {
+    display: flex;
+    border-style: solid;
+    width: fit-content;   
+}

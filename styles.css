@@ -1,21 +1,76 @@
-#introPage{
-    /* display: flex; */
-    padding-top: 40vh;
-    background-color: red;
+#introPage {
+    width: 100%;
     height: 100vh;
-}
-
-#introPage * {
-    background-color: red;
+    background-image: url(./assets/background.jpg);
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+
+#introPage > div {
+    background-color: white;
+    width: fit-content;
+    text-align: center;
+}
+
+#introPage > div > h1 {
     margin: 0;
 }
 
-#introPage > .intro {
+.intro{
+    padding: 10px;
+}
+
+.myWorkButton {
+    margin: 20px;
+    font-size: 10px;
+    padding: 10px;
+}
+
+.header ul{
     display: flex;
-    border-style: solid;
-    width: fit-content;   
+    align-items: center;
+    margin-top: 0;
+    margin-bottom: 0;
+    width: 100%;
+    height: 30px;
+    list-style: none;
+    padding-left: 0;
+    /* border-style: solid; */
+    background-color: #1b242f;
+    color: white;
+}
+
+.header li{
+    margin-left: 10px;
+    display: inline;
+}
+
+.aboutME {
+    margin-top: 0;
+    width: 100vh;
+    height: 100vh;
+    background-color: yellow;
+}
+
+.porto {
+    margin-top: 0;
+    width: 100vh;
+    height: 100vh;
+    background-color: yellow;
+}
+
+.mySocial {
+    margin-top: 0;
+    width: 100vh;
+    height: 100vh;
+    background-color: red;
+}
+
+.contact {
+    margin-top: 0;
+    width: 100vh;
+    height: 100vh;
+    background-color: green;
 }

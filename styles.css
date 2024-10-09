@@ -28,7 +28,7 @@
     padding: 10px;
 }
 
-.header ul{
+#header ul{
     display: flex;
     align-items: center;
     margin-top: 0;
@@ -40,18 +40,26 @@
     /* border-style: solid; */
     background-color: #1b242f;
     color: white;
+    position: fixed;
 }
 
-.header li{
+#header li{
     margin-left: 10px;
     display: inline;
 }
 
-.aboutME {
+#aboutME {
     margin-top: 0;
     width: 100vh;
     height: 100vh;
-    background-color: yellow;
+    display: flex;
+}
+
+#aboutME > div > img {
+    margin-top: 30px;
+    width: 150px;
+    height: 170px;
+    border-radius: 50%;
 }
 
 .porto {

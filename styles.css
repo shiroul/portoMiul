@@ -1,3 +1,7 @@
+html {
+    scroll-behavior: smooth;
+}
+
 #introPage {
     width: 100%;
     height: 100vh;
@@ -34,51 +38,88 @@
     margin-top: 0;
     margin-bottom: 0;
     width: 100%;
-    height: 30px;
+    height: 50px;
     list-style: none;
     padding-left: 0;
     /* border-style: solid; */
     background-color: #1b242f;
     color: white;
-    position: fixed;
 }
 
 #header li{
+    font-size: 20px;
     margin-left: 10px;
     display: inline;
 }
 
-#aboutME {
-    margin-top: 0;
-    width: 100vh;
+#header {
+    /* padding: 0; */
+    color: red;
+    width: 200vh;
+}
+a:link,a:visited {
+    color: white;
+    text-decoration: none;
+}
+
+.stickyHeader{
+    position: sticky;
+    top: 0;
+    padding-bottom: 10px;
+}
+
+#aboutMe {
+    padding-top: 10px;
+    margin-top: 0px;
+    margin-left: 20px;
+    margin-right: 20px;
+    width: 200vh;
     height: 100vh;
     display: flex;
 }
 
-#aboutME > div > img {
-    margin-top: 30px;
-    width: 150px;
-    height: 170px;
-    border-radius: 50%;
+#aboutMe > div {
+    width: 50%;
+    height: 100%;
 }
 
-.porto {
+#aboutMe > div > img {
+    width: 90%;
+}
+
+#aboutMe > div > h1 {
+    font-size: 50px;
+}
+
+#aboutMe > div > p {
+    font-size: 30px;
+}
+
+.contentAboutMe {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+#porto {
     margin-top: 0;
     width: 100vh;
     height: 100vh;
     background-color: yellow;
 }
 
-.mySocial {
+#mySocial {
     margin-top: 0;
     width: 100vh;
     height: 100vh;
     background-color: red;
 }
 
-.contact {
+#contact {
     margin-top: 0;
     width: 100vh;
     height: 100vh;
     background-color: green;
 }
+
